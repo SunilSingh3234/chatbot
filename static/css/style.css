@@ -1,0 +1,61 @@
+/* Chatbox styling */
+#chatbox {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Message display area */
+#messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* User and bot messages */
+#messages .user {
+    text-align: right;
+    color: blue;
+    margin: 5px 0;
+}
+
+#messages .bot {
+    text-align: left;
+    color: green;
+    margin: 5px 0;
+}
+
+/* Input form styling */
+#chatForm {
+    display: flex;
+    gap: 10px;
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
